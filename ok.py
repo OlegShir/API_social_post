@@ -2,7 +2,7 @@ import json, requests, hashlib
 from io import BytesIO
 
 
-class OK_api:
+class OK:
 
     def __init__(self, access_token: str, session_secret_key: str, public_key_app: str, id_group: str) -> None:
         self.gid = id_group
